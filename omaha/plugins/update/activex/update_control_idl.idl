@@ -17,7 +17,7 @@ import "oaidl.idl";
 
 [
   object,
-  uuid(c40a1df0-d2d8-4f01-9b1d-3c0d4f226dd9),
+  uuid(673feeca-8608-4a27-ae83-55ecced80e2d),
   dual,
   helpstring("GoogleUpdate3Web Control"),
   pointer_default(unique)
@@ -42,7 +42,7 @@ interface IGoogleUpdate3WebControl : IDispatch {
 
 [
   object,
-  uuid(b8b0a927-6c2a-4de2-b6d7-a98fe4e42465),
+  uuid(068cb5eb-f3af-4f1d-8b25-bbe81f88bb3c),
   dual,
   helpstring("Google Update OneClick Control"),
   pointer_default(unique)
@@ -74,7 +74,7 @@ interface IGoogleUpdateOneClick : IDispatch
 };
 
 [
-  uuid(8c1a5505-5837-47e1-963e-dbc5c3f0f52a),
+  uuid(c8c12eb2-737a-4a21-993d-1cbd1334d7af),
   version(1.0),
   helpstring("Omaha Browser Plugins 3.0 Type Library")
 ]
@@ -85,7 +85,7 @@ library GoogleUpdateControlLib {
   interface IGoogleUpdate3WebControl;
 
   [
-    uuid(77e6be0b-059d-4ff6-a534-4aa0970a746c),
+    uuid(30e3e942-ec97-4c68-9fc4-b024560e5abe),
     helpstring("Google Update OneClick Control Class")
   ]
   coclass GoogleUpdateOneClickControlCoClass
@@ -94,7 +94,7 @@ library GoogleUpdateControlLib {
   };
 
   [
-    uuid(2f7cf8e2-27d9-4641-845d-3bfedece0326),
+    uuid(98ff55f8-e3fa-4666-bb9c-2626f8a82165),
     helpstring("GoogleUpdate3Web Control Class")
   ]
   coclass GoogleUpdate3WebControlCoClass {
