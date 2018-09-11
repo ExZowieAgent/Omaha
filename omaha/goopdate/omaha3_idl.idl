@@ -132,7 +132,7 @@ interface IGoogleUpdate3 : IDispatch {
 [
   object,
   dual,
-  uuid(9a527c99-02cb-49eb-a14f-225c25cb76dc),
+  uuid(688e74ea-621a-4739-a95b-bd37f1a27602),
   helpstring("IAppBundle Interface"),
   pointer_default(unique)
 ]
@@ -550,7 +550,7 @@ interface IGoogleUpdate3WebSecurity : IUnknown {
 [
   object,
   dual,
-  uuid(63e31c30-17e1-4dfb-8082-2c465f7a0666),
+  uuid(eacbc8f8-849c-4626-88ef-ec83928f5bc7),
   helpstring("IAppBundleWeb Interface"),
   pointer_default(unique),
 ]
@@ -927,7 +927,7 @@ library GoogleUpdate3Lib {
   interface ICoCreateAsyncStatus;
 
   [
-    uuid(cec92c56-68e4-4494-ba79-eb3a71ad8473),
+    uuid(f7415eec-410a-4709-992d-46c256117abf),
     helpstring("GoogleUpdate3 Class for per-user applications")
   ]
   coclass GoogleUpdate3UserClass {
@@ -935,7 +935,7 @@ library GoogleUpdate3Lib {
   }
 
   [
-    uuid(d538d2e1-dbce-4f8f-b851-295eff383c3b),
+    uuid(1577b8af-0c61-4ec9-aa18-b99dce79fa36),
     helpstring("GoogleUpdate3 Service Class for machine applications")
   ]
   coclass GoogleUpdate3ServiceClass {
